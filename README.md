@@ -16,7 +16,9 @@ AI-enhanced MDR project that detects Linux threats using unsupervised ML.
 - Trains Isolation Forest on normal behavior
 - Flags outliers as anomalies
 
-## 🏃 How to Run
+## 👮(V2 update) MDR Agent Mode 
 
-1. Clone the repo
-2. Install dependencies:
+Run the tool as a continuous watchdog:
+
+```bash
+python src/agent.py
