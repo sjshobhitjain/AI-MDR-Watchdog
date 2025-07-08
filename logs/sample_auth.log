@@ -1,0 +1,5 @@
+Jul 7 12:01:22 localhost sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/ls
+Jul 7 12:03:45 localhost user2 : TTY=pts/1 ; PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/nmap
+Jul 7 12:05:01 localhost useradd rogueuser
+Jul 7 12:06:33 localhost sudo: user2 : COMMAND=/bin/apt install wireshark
+Jul 7 12:08:12 localhost sudo: user1 : COMMAND=/usr/bin/python3 script.py
