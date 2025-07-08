@@ -24,11 +24,14 @@ Run the tool as a continuous watchdog:
 python src/agent.py
 ```
 
-## Add a CLI to run it as python src/agent.py --live
+## Package as a Service
+You can:
 
-Or turn it into a background service:
+- Add a CLI to run it as python src/agent.py --live
 
-Systemd service (Linux daemon)
+- Or turn it into a background service:
 
-Flask FastAPI microservice (expose REST API to trigger analysis)
+  -- Systemd service (Linux daemon)
+
+  -- Flask FastAPI microservice (expose REST API to trigger analysis)
 
